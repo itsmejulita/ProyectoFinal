@@ -15,5 +15,5 @@ http://127.0.0.1:8000/register/
 http://127.0.0.1:8000/editarUsuario/
 http://127.0.0.1:8000/logout/
 http://127.0.0.1:8000/avatar/
-# DENTRO DE LA CARPETA VIDEO TUTORIAL SE ENCUENTRA EL VIDEO RESÚMEN DE COMO FUNCIONA LA PÁGINA WEB !!!! 
+# EL ARCHIVO www_screencapture_com_2024-2-16_03_24.mp4 ES EL VIDEO RESÚMEN DE COMO FUNCIONA LA PÁGINA WEB !!!! 
 # ProyectoFinal
