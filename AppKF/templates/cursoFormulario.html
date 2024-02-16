@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cursos</title>
+</head>
+<body>
+    <h1>Formulario de Cursos</h1>
+
+    <form action="{% url 'FormularioCurso' %}" method="POST">
+        {% csrf_token %}
+        <table>
+            {{ form1.as_table }}
+        </table>
+        <input type="submit" value="Confirmar">
+    </form>
+</body>
+</html>

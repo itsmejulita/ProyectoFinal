@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Título de la página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    {% for leerVinos in wine %}  
+
+    <p> nombre: {{Vinos.nombre}} </p>
+    <p> empresa: {{Vinos.empresa}} </p>
+    <p> año: {{Vinos.año}} </p>
+    
+    <button> 
+    <a href = "{% url 'Vinoseditar' Vinos.nombre %}" > Editar vinos </a> 
+    </button> 
+
+    <button> 
+    <a href = "{% url 'Vinoseliminar' Vinos.nombre %}" > Eliminar vinos </a> 
+    </button> 
+    {% endfor %}
+
+    <a href = "{% url 'Vinoscrear'%}" > Crear vinos </a> 
+
+</body>
+</html>

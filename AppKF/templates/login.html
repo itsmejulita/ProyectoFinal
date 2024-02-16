@@ -1,0 +1,25 @@
+{% extends "padre.html" %}
+
+
+{% load static %}
+
+
+{% block titulo %}
+
+Login
+
+{% endblock %}
+
+{% block description %}
+
+<form action = "" method = "POST"> {% csrf_token %}
+
+
+    {{formulario.as_p}}
+
+    <button class"btn-book-a-table" type = "submit"> Iniciar sesión </button>
+
+</form>
+
+{% endblock %} 
+

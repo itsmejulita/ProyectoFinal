@@ -1,0 +1,25 @@
+{% extends "padre.html" %}
+
+
+{% load static %}
+
+
+{% block titulo %}
+
+Registrarse
+
+{% endblock %}
+
+{% block description %}
+
+<form action = "" method = "POST"> {% csrf_token %}
+
+
+    {{formulario.as_p}}
+
+    <button type = "submit"> Registrate </button>
+
+</form>
+
+{% endblock %} 
+

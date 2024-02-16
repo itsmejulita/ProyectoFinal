@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Título de la página</title>
+    </head>
+    <body>
+
+        <p> BUSCAR CAMADA: {{camada}} </p>
+
+        {%for curso in curso%}
+
+        <p> Nombre : {{curso.nombre}} ---- camada: {{curso.camada}} </p>
+
+        {% endfor %}
+
+    </body>
+</html>

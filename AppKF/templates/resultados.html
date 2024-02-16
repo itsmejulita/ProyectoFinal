@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados de la búsqueda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resultados de la búsqueda</h1>
+        {% for curso in cursos %}
+            <div>
+                <h2>{{ curso.nombre }}</h2>
+                <p>Camada: {{ curso.camada }}</p>
+            </div>
+        {% endfor %}
+        <p>No se encontraron cursos.</p>
+</body>
+</html>

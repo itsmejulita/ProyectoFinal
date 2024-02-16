@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Título de la página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    {% for heladeria in object_list %}  
+    <p>Nombre: {{ heladeria.nombre }}</p>
+    <a href = "{% url 'Heladeriadetalle' heladeria.id %}" > Ver detalles </a> 
+    <a href = "{% url 'HeladeriaEditar' heladeria.id %}" > Editar heladería </a> 
+    <a href = "{% url 'HeladeriaBorrar' heladeria.id %}" > Eliminar heladería </a> 
+
+    {% endfor %}
+
+    <a href = "{% url 'HeladeriaCrear'%}" > Crear Heladería </a>
+
+</body>
+</html>
