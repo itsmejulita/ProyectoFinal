@@ -4,7 +4,7 @@ Esta es mi primer pagina web creada con django para mi proyecto final de CoderHo
 Esta es mi primer pagina web creada con django para mi proyecto final de CoderHouse
 PROYECTO FINAL - FENOGLIO JULIANA. 
 INFORMACIÓN IMPORTANTE:
-Para acceder al repositorio cambiar a la rama máster. 
+Para acceder a los archivos del repositorio ir a la rama MAIN.
 Urls:
 http://127.0.0.1:8000/inicio
 http://127.0.0.1:8000/cafeteria_1/
@@ -15,5 +15,5 @@ http://127.0.0.1:8000/register/
 http://127.0.0.1:8000/editarUsuario/
 http://127.0.0.1:8000/logout/
 http://127.0.0.1:8000/avatar/
-# DENTRO DE LA CARPETA VIDEO TUTORIAL SE ECNUENTRA EL VIDEO RESÚMEN DE COMO FUNCIONA LA PÁGINA WEB (la página no esta muy bien formada esteticamente, me basé mas en que las secciones de la pagina funcionen correctamente) 
+# DENTRO DE LA CARPETA VIDEO TUTORIAL SE ECNUENTRA EL VIDEO RESÚMEN DE COMO FUNCIONA LA PÁGINA WEB  
 # ProyectoFinal
